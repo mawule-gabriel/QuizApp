@@ -157,7 +157,7 @@ public class QuizApp {
                 html.append("<body>");
                 html.append("<div class='quiz-container'>");
                 html.append("<h1>You ").append(result).append("!</h1>");
-                html.append("<p>Your Score: ").append(currentScore).append(" / ").append(totalQuestions).append("</p>");
+                html.append("<p>Your marks: ").append(currentScore).append(" / ").append(totalQuestions).append("</p>");
 
                 // Reset button
                 html.append("<form method='POST' action='/reset'>");

@@ -20,7 +20,7 @@ WORKDIR /app
 # Copy the compiled .jar file from the build stage
 COPY --from=build /app/target/QuizApp-1.0-SNAPSHOT.jar quiz-app.jar
 
-# Expose port 5000 (or the port your app uses)
+# Expose port 5000
 EXPOSE 5000
 
 # Run the application
